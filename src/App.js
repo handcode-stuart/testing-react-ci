@@ -13,7 +13,7 @@ class App extends Component {
 
     render() {
         return (
-            <div style={{ backgroundColor: "blue" }}>
+            <div style={{ backgroundColor: "yellow" }}>
                 <CountDisplay count={this.state.count} />
                 <Button onClick={this.handleChange} text='Click me' />
             </div>
